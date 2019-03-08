@@ -1,0 +1,25 @@
+{
+  "name": "ParseStringToHtml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development",
+    "deploy": "gh-pages -d demo/dist",
+    "publish-demo": "npm run build && npm run deploy"
+  },
+  "keywords": [],
+  "author": "Yordan Nikolov",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
